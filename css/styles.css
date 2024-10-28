@@ -1,0 +1,84 @@
+/* Ajustes generales */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f0f4f8; /* Fondo azul claro */
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: rgba(46, 45, 45, 0.562); /* Fondo con opacidad */
+  color: #000;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; /* Ajusta el alto según sea necesario */
+}
+
+/* Ajusta el contenido debajo del header */
+#carousel, #welcome-message, #acerca-de-nosotros, footer {
+  padding-top: 60px; /* Espacio suficiente para el header fijo */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Carrusel */
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Secciones de contenido */
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sección "Acerca de Nosotros" */
+#acerca-de-nosotros {
+  background-color: #e6f0ff; /* Fondo azul claro */
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #65718d;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+}
+
+/* Ajustes de margen y padding en secciones */
+#carousel, #welcome-message, #acerca-de-nosotros {
+  margin: 0;
+  padding: 0;
+}
